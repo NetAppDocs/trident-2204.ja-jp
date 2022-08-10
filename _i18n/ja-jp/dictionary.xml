@@ -2853,7 +2853,6 @@
   <block id="6f0b081bef5e745ef2429ef74472d9bd" category="cell">v1.21.0</block>
   <block id="681d715b456f6d29a501b8f132e941a1" category="cell">v1.22.0</block>
   <block id="73e93ad328287e5ce4c06228cfdba2bf" category="cell">v1.3.0</block>
-  <block id="01d360dd9f635f6518aed5070edf488f" category="admonition">Kubernetesバージョン1.20以降では、検証済みの「k83.gcr.io/sig-storage/csi-snapshotter：v4.x」イメージを使用します。これは、「v1'バージョンが「volumesnapshotes.snapshot.storage.k83.io`CRD」に対応している場合にのみ使用します。v1beta` のバージョンが v1beta` のバージョンの有無に関わらず CRD にサービスを提供している場合は、検証済みの「 k83.gcr.io/sig-storage/csi-snapshotter: v3.x' 」イメージを使用します。</block>
   <block id="732d0805e41f2db48aa120c357324ee4" category="summary">Trident の導入には、 Trident のオペレータまたは tridentctl を使用できます。</block>
   <block id="42f8643eb52a942747937327c72c8361" category="doc">導入の概要</block>
   <block id="deef9d6bf4083f81d7bd15ae0c9121b6" category="admonition">22.04 リリース以降、 Astra Trident がインストールされるたびに AES キーが再生成されなくなりました。今回のリリースでは、 Astra Trident がインストールする新しいシークレットオブジェクトが、インストール全体で維持されます。つまり '22.04 の tridentctl' は Trident の以前のバージョンをアンインストールできますが ' それ以前のバージョンでは 22.04 のインストールをアンインストールできません</block>
@@ -3168,4 +3167,5 @@
   <block id="c949166d6970748c0094c800daa3324a" category="sidebar">Trident で Astra を管理</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="sidebar">次の手順</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
+  <block id="12ff25435e42ce4eb51634e6d4a5e06c" category="admonition">Kubernetesバージョン1.20以降では、検証済みの「k83.gcr.io/sig-storage/csi-snapshotter:v5.x`イメージを使用します。これは、「v1'バージョンが「volumesnapshotes.snapshot.storage.k88.io`CRD」に対応している場合にのみ使用します。v1beta` のバージョンが v1beta` のバージョンの有無に関わらず CRD にサービスを提供している場合は、検証済みの「 k83.gcr.io/sig-storage/csi-snapshotter: v3.x' 」イメージを使用します。</block>
 </blocks>

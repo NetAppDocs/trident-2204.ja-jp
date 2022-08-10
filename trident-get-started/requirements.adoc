@@ -242,4 +242,4 @@ Trident を使用するには、バックエンド構成でストレージシス
 
 |===
 
-NOTE: Kubernetesバージョン1.20以降では、検証済みの「k83.gcr.io/sig-storage/csi-snapshotter：v4.x」イメージを使用します。これは、「v1'バージョンが「volumesnapshotes.snapshot.storage.k83.io`CRD」に対応している場合にのみ使用します。v1beta` のバージョンが v1beta` のバージョンの有無に関わらず CRD にサービスを提供している場合は、検証済みの「 k83.gcr.io/sig-storage/csi-snapshotter: v3.x' 」イメージを使用します。
+NOTE: Kubernetesバージョン1.20以降では、検証済みの「k83.gcr.io/sig-storage/csi-snapshotter:v5.x`イメージを使用します。これは、「v1'バージョンが「volumesnapshotes.snapshot.storage.k88.io`CRD」に対応している場合にのみ使用します。v1beta` のバージョンが v1beta` のバージョンの有無に関わらず CRD にサービスを提供している場合は、検証済みの「 k83.gcr.io/sig-storage/csi-snapshotter: v3.x' 」イメージを使用します。
