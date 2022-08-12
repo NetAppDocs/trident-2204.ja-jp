@@ -1822,7 +1822,6 @@
   <block id="8b4e612e7ec021b91bdf46a69c393a75" category="paragraph">仮想ストレージプールの機能の表面に、ラベルが貼られています。</block>
   <block id="4cfa22b281cbd36e1a275d61ec23a9b4" category="summary">トラブルシューティングに役立つログを収集できます。ログの収集方法は、 Docker プラグインの実行方法によって異なります。</block>
   <block id="fe1786b49549e8e06a89b9c57d7fc514" category="doc">ログを収集します</block>
-  <block id="d24bae93d00d821b3a8e7ee57c3bd468" category="section-title">トラブルシューティングのログを収集します</block>
   <block id="83f4d02d2dd31f09291e098bf4ae502b" category="list-text">推奨されるマネージプラグインメソッド (`d Occker plugin` コマンドを使用 ) を使用して Astra Trident を実行している場合は、次のように表示します。</block>
   <block id="17c40798131b12188d43b1a90dabfc69" category="paragraph">標準的なロギングレベルでは、ほとんどの問題を診断できます。十分でない場合は、デバッグロギングをイネーブルにできます。</block>
   <block id="c28722abec5c1daefa02916119bbff91" category="list-text">デバッグロギングをイネーブルにするには、デバッグロギングをイネーブルにしてプラグインをインストールします。</block>
@@ -3168,4 +3167,5 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="sidebar">次の手順</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="12ff25435e42ce4eb51634e6d4a5e06c" category="admonition">Kubernetesバージョン1.20以降では、検証済みの「k83.gcr.io/sig-storage/csi-snapshotter:v5.x`イメージを使用します。これは、「v1'バージョンが「volumesnapshotes.snapshot.storage.k88.io`CRD」に対応している場合にのみ使用します。v1beta` のバージョンが v1beta` のバージョンの有無に関わらず CRD にサービスを提供している場合は、検証済みの「 k83.gcr.io/sig-storage/csi-snapshotter: v3.x' 」イメージを使用します。</block>
+  <block id="756909f99bc1a720d318a5f5b94eb094" category="section-title">トラブルシューティング用にログを収集する</block>
 </blocks>
