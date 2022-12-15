@@ -1512,7 +1512,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-02 11:05:22 +0000">08/02/2022</time>
+    <time datetime="2022-12-14 18:25:59 +0000">12/14/2022</time>
     
   
 
@@ -1540,7 +1540,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="tridentbackendconfig-を使用して-tridentctl-バックエンドを管理します">TridentBackendConfig を使用して tridentctl バックエンドを管理します</h2>
+<h2 id="管理-tridentctl-を使用してバックエンドを-tridentbackendconfig">管理 <code>tridentctl</code> を使用してバックエンドを <code>TridentBackendConfig</code></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>このセクションでは 'tridentBackendConfig' オブジェクトを作成して Kubernetes インターフェイスから直接 'tridentctl を使用して作成されたバックエンドの管理に必要な手順について説明します</p>
@@ -1664,7 +1664,7 @@ secret/backend-tbc-ontap-san-secret created</pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="手順-2-tridentbackendconfig-cr-を作成します">手順 2 ： TridentBackendConfig CR を作成します</h3>
+<h3 id="手順2を作成します-tridentbackendconfig-cr">手順2：を作成します <code>TridentBackendConfig</code> CR</h3>
 <div class="paragraph">
 <p>次の手順では ' （この例のように）事前に存在する 'ONTAP-NAS-backend' に自動的にバインドされる 'TridentBackendConfig&#8217;CR を作成します次の要件が満たされていることを確認します。</p>
 </div>
@@ -1733,7 +1733,7 @@ tridentbackendconfig.trident.netapp.io/tbc-ontap-nas-backend created</pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="手順-3-tridentbackendconfig-cr-のステータスを確認します">手順 3 ： TridentBackendConfig CR のステータスを確認します</h3>
+<h3 id="手順3のステータスを確認します-tridentbackendconfig-cr">手順3：のステータスを確認します <code>TridentBackendConfig</code> CR</h3>
 <div class="paragraph">
 <p>「 TridentBackendConfig 」が作成された後、そのフェーズは「バインド」されている必要があります。また、既存のバックエンドと同じバックエンド名と UUID が反映されている必要があります。</p>
 </div>
@@ -1759,7 +1759,7 @@ $ tridentctl get backend -n trident
 </div>
 </div>
 <div class="sect1">
-<h2 id="tridentctl-を使用して-tridentbackendconfig-バックエンドを管理します">tridentctl を使用して TridentBackendConfig バックエンドを管理します</h2>
+<h2 id="管理-tridentbackendconfig-を使用してバックエンドを-tridentctl">管理 <code>TridentBackendConfig</code> を使用してバックエンドを <code>tridentctl</code></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>tridentBackendConfig を使用して作成されたバックエンドを一覧表示するには 'tridentctl を使用しますまた、管理者は、「 TridentBackendConfig 」を削除し、「 pec.deletionPolicy` 」が「 re 」に設定されていることを確認することで、「 tridentctl 」を使用してこのようなバックエンドを完全に管理することもできます。</p>
@@ -1788,7 +1788,7 @@ $ tridentctl get backend ontap-san-backend -n trident
 </div>
 </div>
 <div class="sect2">
-<h3 id="手順-1-削除ポリシーが-retain-に設定されていることを確認します">手順 1 ：削除ポリシーが retain に設定されていることを確認します</h3>
+<h3 id="手順1確認します-deletionpolicy-がに設定されます-retain">手順1：確認します <code>deletionPolicy</code> がに設定されます <code>retain</code></h3>
 <div class="paragraph">
 <p>「ネットワークポリシー」の値を見てみましょう。これは「山」に設定する必要があります。これにより 'TridentBackendConfig&#8217;CR が削除されても ' バックエンドの定義は引き続き表示され 'tridentctl' で管理できます</p>
 </div>
@@ -1822,7 +1822,7 @@ backend-tbc-ontap-san   ontap-san-backend   81abcb27-ea63-49bb-b606-0a5315ac5f82
 </div>
 </div>
 <div class="sect2">
-<h3 id="手順-2-tridentbackendconfig-cr-を削除します">手順 2 ： TridentBackendConfig CR を削除します</h3>
+<h3 id="手順2を削除します-tridentbackendconfig-cr">手順2：を削除します <code>TridentBackendConfig</code> CR</h3>
 <div class="paragraph">
 <p>最後の手順は、「 TridentBackendConfig 」 CR を削除することです。「削除ポリシー」が「取得」に設定されていることを確認したら、削除を続行できます。</p>
 </div>
