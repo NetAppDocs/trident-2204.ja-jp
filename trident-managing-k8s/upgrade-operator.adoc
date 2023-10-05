@@ -20,7 +20,7 @@ summary: 既存の Astra Trident インストールは、オペレータが簡�
 * CRD ベースの Trident をインストールしている必要があります。19.07 以降のすべてのリリースを表します。CSI ベースのインストールを使用している場合は、 CRD ベースのインストールを使用している可能性があります。
 * CSI Trident をアンインストールしても、インストールからのメタデータが保持されている場合は、オペレータを使用してアップグレードできます。
 * 特定の Kubernetes クラスタ内のすべてのネームスペースに存在する Trident のは、 1 つの Astra だけです。
-* を実行する Kubernetes クラスタを使用する必要があります link:requirements.html["バージョン1.18～1.24"^]。
+* を実行する Kubernetes クラスタを使用する必要があります  link:../trident-get-started/requirements.html["バージョン1.18～1.24"^]。
 * アルファスナップショットの CRD が存在する場合は、 tridentctl を使用して削除してください。これにより、アルファスナップショット仕様の CRD が削除されます。削除または移行が必要な既存のスナップショットについては、を参照してください https://netapp.io/2020/01/30/alpha-to-beta-snapshots/["この blog"^]。
 
 
@@ -69,7 +69,7 @@ Version:  v20.10.1
 ----
 +
 
-NOTE: ステータスに「更新中」と表示される場合は、続行する前に解決してください。可能なステータス値のリストについては、を参照してください https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["こちらをご覧ください"^]。
+NOTE: ステータスがになっている場合 `Updating`をクリックし、続行する前に解決してください。可能なステータス値のリストについては、を参照してください link:../kubernetes-deploy-operator.html["こちらをご覧ください"^]。
 
 . Trident インストーラに付属のマニフェストを使用して、「 TridentOrchestrator 」 CRD を作成します。
 +
@@ -86,7 +86,7 @@ $ kubectl create -f deploy/crds/trident.netapp.io_tridentorchestrators_crd_post1
 . マニフェストを使用して、名前空間を対象とした演算子を削除します。この手順を完了するには、名前空間を対象とした演算子を配備するために使用する 'undle.yaml ファイルが必要です。から 'bundle.yaml を取得できます https://github.com/NetApp/trident/blob/stable/v20.10/deploy/bundle.yaml["Trident リポジトリ"^]。適切なブランチを使用するようにしてください。
 +
 
-NOTE: 名前空間スコープ演算子を削除してクラスタスコープ演算子をインストールする前に、 Trident のインストールパラメータを必要に応じて変更します（たとえば、「 tridentImage 」、「 autosupportImage 」、プライベートイメージリポジトリ、「 imagePullSecrets 」の値を変更します）。更新可能なパラメータの一覧については、を参照してください link:../trident-deploy-k8s/kubernetes-customize-deploy.html["パラメータのリスト"^]。
+NOTE: Tridentのインストールパラメータに必要な変更を加えます（の値の変更など） `tridentImage`、 `autosupportImage`、プライベートイメージリポジトリ、および提供 `imagePullSecrets`)名前空間を対象とした演算子を削除した後、クラスタを対象とした演算子をインストールする前。更新可能なパラメータの一覧については、を参照してください link:../kubernetes-customize-deploy.html["パラメータのリスト"]。
 
 +
 [listing]

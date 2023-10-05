@@ -14,7 +14,7 @@ summary: Trident のオペレータが、 Astra Trident を導入できます。
 Tridentのオペレータが、Astra Tridentを導入できます。Tridentオペレータは、次のいずれかの方法で導入できます。
 
 * Tridentの使用 link:https://artifacthub.io/packages/helm/netapp-trident/trident-operator["Helmチャート"^]：Helm ChartがTridentオペレータを導入し、Tridentをワンステップでインストールします。
-* 手動：Tridentがを提供 link:https://github.com/NetApp/trident/blob/master/deploy/bundle.yaml["バンドル.yaml"^] オペレータのインストールおよび関連オブジェクトの作成に使用できるファイル。
+* 手動：Tridentがを提供 link:https://github.com/NetApp/trident/blob/stable/v22.04/deploy/bundle.yaml["バンドル.yaml"^] オペレータのインストールおよび関連オブジェクトの作成に使用できるファイル。
 
 
 

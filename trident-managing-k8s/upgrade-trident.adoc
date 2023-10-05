@@ -33,7 +33,8 @@ NOTE: 5 つ先のリリースにアップグレードするには、複数の手
 IMPORTANT: バージョン 19.04 以前のすべてのアップグレードでは、 Astra Trident のメタデータを独自の「 etcd」 オブジェクトから CRD オブジェクトに移行する必要があります。アップグレードの仕組みについては、リリースのドキュメントを確認してください。
 
 
-WARNING: アップグレードする場合は、 Astra Trident が使用する「 torageClasses 」に「 parameter) .fsType 」を指定することが重要です。既存のボリュームを中断することなく、「 torageClasses 」を削除して再作成できます。これは、強制の ** 要件 ** です https://kubernetes.io/docs/tasks/configure-pod-container/security-context/["セキュリティコンテキスト"^] SAN ボリュームの場合。。 https://github.com/NetApp/trident/tree/master/trident-installer/sample-input["入力例："^] directory には、などの例があります https://github.com/NetApp/trident/blob/master/trident-installer/sample-input/storage-class-basic.yaml.templ["9d267d893296d1b56789c03ad196afc8"^] および https://github.com/NetApp/trident/blob/master/trident-installer/sample-input/storage-class-bronze-default.yaml["4e4578e23d9d48bd9338b1581f884392"^]。詳細については、を参照してください link:../trident-rn.html["既知の問題"^]。
+WARNING: アップグレードするときは、この作業を行うことが重要です `parameter.fsType` インチ `StorageClasses` Astra Tridentが使用。削除して再作成することができます `StorageClasses` 実行前のボリュームの中断はなし。これは、強制の ** 要件 ** です https://kubernetes.io/docs/tasks/configure-pod-container/security-context/["セキュリティコンテキスト"^] SAN ボリュームの場合。。 https://github.com/NetApp/trident/tree/master/trident-installer/sample-input["入力例："^] directory には、などの例があります[`storage-class-basic.yaml.templ`^]および[`storage-class-bronze-default.yaml`^]をクリックします。
+詳細については、を参照してください link:../trident-rn.html["既知の問題"]。
 
 
 
