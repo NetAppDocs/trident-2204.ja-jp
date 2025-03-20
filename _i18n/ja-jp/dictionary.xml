@@ -1517,8 +1517,6 @@
   <block id="485e8e209b502a7975830960817b875e" category="paragraph">Trident 22.04 を実行していない場合は、以前のリリースのドキュメントを参照できます。</block>
   <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Trident 22.01</block>
   <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
   <block id="23c9c608b55b9071002aeddfd6c5563c" category="summary">Trident を導入するには、必要なプロトコルをホストにインストールして設定しておく必要があります。</block>
   <block id="782bd8949cb40c80fd3f3126eccab35a" category="doc">導入の前提条件</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link-macro">要件</block>
@@ -3099,4 +3097,17 @@
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Trident AutoSupport は、個人情報（ PII ）や個人情報を収集または送信しません。Tridentコンテナイメージ自体には適用されないが付属して<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> います。データのセキュリティと信頼に対するネットアップの取り組みについて詳しくは、こちらをご覧<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>ください。</block>
+  <block id="6c0abaa198495bc62a07a25b5120401b" category="sidebar">Astra Trident は、ネットアップが管理しているオープンソースのストレージプロビジョニングおよびオーケストレーションツールです。このコンテナを使用すると、 Docker と Kubernetes で管理されるコンテナ化アプリケーション用のストレージボリュームを作成できます。パッチリリースの変更など、完全なリリース情報については、https://docs.netapp.com/us-en/trident/trident-rn.html.を参照してください。</block>
+  <block id="dfc322d478fc59cd6375362d8dad7bc0" category="sidebar">Kubernetes 1.25に関する重要な情報</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">よくある質問</block>
+  <block id="312b0dc38b01ff32c1b2f5f81ee1ab2d" category="sidebar">Trident オペレータとともに導入</block>
+  <block id="6a693eb5cd23e4e5743663c7edc37aed" category="sidebar">Astra Trident for Docker を導入</block>
+  <block id="386307d41b3f4169a1e6e046a727cdd2" category="sidebar">Trident のオペレータにアップグレード</block>
+  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">デモとチュートリアル</block>
+  <block id="28348a71bed382b86fa6de4d3a307715" category="sidebar">Astra Trident のビデオ</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="6394eceb2639574114b02e6e817eb19a" category="sidebar">Astra ブログ</block>
+  <block id="874d8a5301794a9ca2aba132ac2460f3" category="sidebar">Kubernetes ハブ</block>
+  <block id="d59c00abbeaf33a9a094b3a69c563405" category="sidebar">netapp.io のコマンドです</block>
+  <block id="8f5cc6430613f1c12f36965050bb7197" category="sidebar">切断</block>
 </blocks>

@@ -1,0 +1,67 @@
+---
+indexpage:
+  title: Astra Trident 22.04 のドキュメント
+  summary: Astra Trident は、ネットアップが管理しているオープンソースのストレージプロビジョニングおよびオーケストレーションツールです。このコンテナを使用すると、
+    Docker と Kubernetes で管理されるコンテナ化アプリケーション用のストレージボリュームを作成できます。
+  keywords: trident, astra trident, 2204
+  lead: Astra Trident は、ネットアップが管理しているオープンソースのストレージプロビジョニングおよびオーケストレーションツールです。このコンテナを使用すると、
+    Docker と Kubernetes で管理されるコンテナ化アプリケーション用のストレージボリュームを作成できます。パッチリリースの変更など、完全なリリース情報については、https://docs.netapp.com/us-en/trident/trident-rn.html.を参照してください。
+  tiles:
+  - title: Kubernetes 1.25に関する重要な情報
+    links:
+    - title: 要件
+      url: "/trident-get-started/requirements.html"
+  - title: はじめに
+    links:
+    - title: Astra Trident の詳細をご確認ください
+      url: "/trident-concepts/intro.html"
+    - title: リリースノート
+      url: trident-rn.html
+    - title: 要件
+      url: "/trident-get-started/requirements.html"
+    - title: ぜひお試しください
+      url: "/trident-get-started/quickstart.html"
+    - title: よくある質問
+      url: "/faq.html"
+  - title: Astra Trident を導入
+    links:
+    - title: Trident オペレータとともに導入
+      url: "/trident-get-started/kubernetes-deploy-operator.html"
+    - title: tridentctl を使用して導入します
+      url: "/trident-get-started/kubernetes-deploy-tridentctl.html"
+    - title: Astra Trident for Docker を導入
+      url: "/trident-docker/deploy-docker.html"
+  - title: Astra Trident をアップグレード
+    links:
+    - title: Trident のオペレータにアップグレード
+      url: "/trident-managing-k8s/upgrade-operator.html"
+    - title: tridentctl を使用してアップグレードします
+      url: "/trident-managing-k8s/upgrade-tridentctl.html"
+  - title: Astra Trident を使用
+    links:
+    - title: ワーカーノードを準備します
+      url: "/trident-use/worker-node-prep.html"
+    - title: バックエンドを設定
+      url: "/trident-use/backends.html"
+    - title: ストレージクラスを管理する
+      url: "/trident-use/manage-stor-class.html"
+    - title: ボリューム操作を実行する
+      url: "/trident-use/vol-operations.html"
+    - title: Astra Trident を監視
+      url: "/trident-use/monitor-trident.html"
+  - title: デモとチュートリアル
+    links:
+    - title: Astra Trident のビデオ
+      url: https://media.netapp.com/video-detail/c5bebae0-aab6-5fed-ae16-df6a3a8b260d/netapp-trident-advanced-data-protection-for-kubernetes-applications
+  - title: ブログとコミュニティ
+    links:
+    - title: Astra ブログ
+      url: https://cloud.netapp.com/blog/topic/astra
+    - title: Astra Trident のブログ
+      url: https://netapp.io/persistent-storage-provisioner-for-kubernetes/
+    - title: Kubernetes ハブ
+      url: https://cloud.netapp.com/kubernetes-hub
+    - title: netapp.io のコマンドです
+      url: https://netapp.io/
+    - title: 切断
+      url: https://discord.gg/NetApp
