@@ -7,7 +7,7 @@ indexpage:
   lead: Astra Trident は、ネットアップが管理しているオープンソースのストレージプロビジョニングおよびオーケストレーションツールです。このコンテナを使用すると、
     Docker と Kubernetes で管理されるコンテナ化アプリケーション用のストレージボリュームを作成できます。パッチリリースの変更など、完全なリリース情報については、https://docs.netapp.com/us-en/trident/trident-rn.html.を参照してください。
   tiles:
-  - title: Kubernetes 1.25に関する重要な情報
+  - title: Kubernetes 1.24に関する重要な情報
     links:
     - title: 要件
       url: "/trident-get-started/requirements.html"
